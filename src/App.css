@@ -1,0 +1,19 @@
+/* .App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+} */
+
+header {
+  z-index: 100;
+}
+
+.ant-layout {
+  background: #1e1e2f;
+  height: fit-content;
+}

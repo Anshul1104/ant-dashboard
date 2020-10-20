@@ -1,0 +1,134 @@
+.site-layout .site-layout-background {
+    background: #1E1E2E;
+    margin: 0 !important;
+}
+
+.card {
+    background: #27293D;
+    color: #fff;
+    padding: 24px 16px;
+    /* min-height: 200px; */
+}
+
+.ant-card-head {
+    border: 0;
+}
+
+.ant-card-head-title {
+    color: #fff;
+}
+
+.ant-tabs>.ant-tabs-nav,
+.ant-tabs>div>.ant-tabs-nav {
+    position: absolute;
+    top: 20px;
+    right: 16px;
+}
+
+.ant-tabs-top>.ant-tabs-nav::before,
+.ant-tabs-bottom>.ant-tabs-nav::before,
+.ant-tabs-top>div>.ant-tabs-nav::before,
+.ant-tabs-bottom>div>.ant-tabs-nav::before {
+    border: 0;
+    justify-content: flex-end;
+}
+
+.ant-tabs>.ant-tabs-nav .ant-tabs-nav-wrap,
+.ant-tabs>div>.ant-tabs-nav .ant-tabs-nav-wrap {
+    justify-content: flex-end;
+}
+
+.ant-tabs-tab.ant-tabs-tab-active .ant-tabs-tab-btn {
+    color: #fff;
+}
+
+.ant-tabs-nav-list {
+    border: 1px solid #2b6cf6;
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.ant-tabs-tab {
+    margin: 0;
+    color: #2b6cf6;
+    border-right: 1px solid #2b6cf6;
+    /* border-radius: 6px; */
+    padding: 0 8px;
+}
+
+.ant-tabs-nav-list .ant-tabs-tab:nth-child(3) {
+    border: 0;
+}
+
+.ant-tabs-tab-active {
+    background: #2b6cf6;
+    color: #fff;
+    border: 1px solid #2b6cf6;
+}
+
+.mt-5 {
+    margin-top: 48px;
+}
+
+.chart-area {
+    height: 220px;
+    width: 100%;
+}
+
+.ant-card {
+    text-align: left;
+}
+
+.ant-card-body {
+    padding: 0;
+}
+
+.ant-card-head {
+    padding: 0;
+    min-height: 24px;
+}
+
+.ant-card-head-title {
+    padding: 0;
+    font-size: 12px;
+    color: #9a9a9a;
+}
+
+.ant-card-meta-title {
+    color: #fff;
+    font-size: 24px;
+    margin-bottom: 16px;
+}
+
+.table {
+    text-align: left;
+    overflow-x: auto;
+}
+
+/* 
+.ant-table table,
+.ant-table-thead > tr > th,
+.ant-table-thead th.ant-table-column-sort,
+td.ant-table-column-sort {
+    background: #27293D;
+    color: rgba(255, 255, 255, 0.7);
+
+}
+
+.ant-table {
+    overflow-x: auto;
+}
+
+.ant-table-pagination {
+    display: none;
+}
+
+.ant-table-head > tr > th {
+    border: 1px solid rgba(240, 240, 240, 0.1);
+}
+
+.ant-table-thead th.ant-table-column-has-sorters:hover,
+.ant-table-tbody > tr.ant-table-row:hover > td {
+    background: #2a2c40;
+    color: white;
+} */
