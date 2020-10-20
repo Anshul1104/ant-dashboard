@@ -4,7 +4,7 @@ import { withScriptjs, withGoogleMap, GoogleMap, Marker, BicyclingLayer } from "
 
 const MyMapComponent = compose(
   withProps({
-    googleMapURL: "https://maps.googleapis.com/maps/api/js?key=AIzaSyAhyj_9xu0ON08nHcc3uz1FHSaaFQb72iw&libraries=geometry,drawing,places",
+    googleMapURL: "https://maps.googleapis.com/maps/api/js?key=YOUR_API_KEY&libraries=geometry,drawing,places",
     loadingElement: <div style={{ height: `100vh` }} />,
     containerElement: <div style={{ height: `100vh` }} />,
     mapElement: <div style={{ height: `400px` }} />,
